@@ -12,6 +12,7 @@ header{
     left: 0;
     width: 100%;
     background-color: white;
+    z-index: 2;
 
 }
 
@@ -132,4 +133,47 @@ h1{
     background-color: white;
     color: #A62440;
     border: 1px solid #A62440;
+}
+
+section{
+    /* background-color: aqua; */
+    padding-top: 100px;
+    border:1px solid red;
+    /* overflow: auto; */
+    height: 300vh;
+}
+
+.section-left{
+    float: left;
+    width: 27%;
+
+    height: 400px;
+    /* background-color: red; */
+    position: sticky;
+    top: 150px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+    
+}
+
+.section-right{
+    background-color: lightgreen;
+    float: right;
+    width: 70%;
+}
+
+
+.first{
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.section-left a{
+    text-decoration: none;
+    color: #5B5B5B;
+}
+
+li{
+    color: #5b5b5b;
+    
 }
