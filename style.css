@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header-sag{
+    float: right;
+    margin-right: 30px;
+}
+
+.header-sag li{
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #4f4f4f;
+}
+
+.header-sag li a{
+    margin: 20px;
+    font-size: 15px;
+    /* font-weight: bolder; */
+    color: #4f4f4f;
+}
+
+.header-sol{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
