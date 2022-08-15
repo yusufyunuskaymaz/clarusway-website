@@ -2,6 +2,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    height: 500vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+
+}
+
+
 header a{
     text-decoration: none;
 }
@@ -32,6 +46,13 @@ header li{
 
 .header-sol{
     float: left;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+
 }
 
 .clear{
@@ -73,4 +94,42 @@ header li{
 header{
     overflow: auto;
     border-bottom: 1px solid #ddd;
+}
+
+.sol{
+    float: left;
+    width: 50%;
+}
+
+.sag{
+    float: right;
+    width: 50%;
+}
+
+#parag{
+    color: #5B5B5B;
+    max-width: 600px;
+}
+
+h1{
+    color: #464646;
+    font-size: 56px;
+}
+
+.part-time{
+    color: #333333;
+}
+
+.apply-course{
+    padding: 15px 20px;
+    background-color: #A62440;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.apply-course:hover{
+    padding: 15px 10px;
+    background-color: white;
+    color: #A62440;
+    border: 1px solid #A62440;
 }
