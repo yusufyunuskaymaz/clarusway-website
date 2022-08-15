@@ -16,6 +16,11 @@ header{
 
 }
 
+nav{
+    width: 80%;
+    margin: auto;
+}
+
 
 header a{
     text-decoration: none;
