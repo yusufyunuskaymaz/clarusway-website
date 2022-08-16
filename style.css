@@ -3,7 +3,11 @@
 }
 
 body{
-    height: 500vh;
+    height: 1200vh;
+}
+
+section{
+    height: 1000vh;
 }
 
 header{
@@ -146,7 +150,7 @@ section{
     width: 100%;
     margin: auto;
     padding-top: 100px;
-    height: 300vh;
+    height: 900vh;
     max-width: 1280px;
 
 }
@@ -320,4 +324,44 @@ h4{
 
 .left-side p{
     margin: 7px 0;
+}
+
+.left-side2{
+    float: left;
+    width: 20%;
+}
+
+.right-side2{
+    float: right;
+    width: 70%;
+}
+
+.right-side2{
+    margin-top: -20px;
+}
+
+
+.first-li{
+    display: inline-block;
+    line-height: 25px;
+}
+
+.second-li{
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 25px;
+}
+
+
+.card-learn{
+    padding: 50px 40px 30px 40px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    height: 290px;
+    overflow: hidden;
+    /*  */
+}
+
+.marg-t{
+    margin-top: -25px;
 }
