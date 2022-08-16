@@ -18,6 +18,7 @@ header{
 
 nav{
     width: 80%;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -58,6 +59,8 @@ main{
     width: 80%;
     margin: auto;
     margin-top: 100px;
+    max-width: 1280px;
+
 
 }
 
@@ -141,13 +144,12 @@ h1{
 }
 
 section{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    /* background-color: aliceblue; */
     padding-top: 100px;
-    /* border:1px solid red; */
-    /* overflow: auto; */
     height: 300vh;
+    max-width: 1280px;
+
 }
 
 .section-left{
@@ -177,8 +179,6 @@ section{
     border-bottom: 1px solid #ddd;
 }
 
-
-
 .section-left a{
     text-decoration: none;
     color: #5B5B5B;
@@ -195,4 +195,49 @@ li{
     padding-left: 25px;
     font-weight: bolder;
     color: #5B5B5B;
+}
+
+.box{
+    /* border: 1px solid red; */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box-icon{
+    border: 1px solid #8a1c4a;
+    display: inline-block;
+    color: #8a1c4a;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    margin-right: 5px;
+}
+
+.box1, .box2, .box3{
+    width: 32%;
+    box-sizing: border-box;
+
+}
+
+.box-icon i{
+    font-size:50px ;
+}
+
+.box-icon p{
+    color: #5b5b5b;
+}
+
+h4{
+    color: #4f4f4f;
+}
+
+.box2 i{
+    padding-top: 22px;
+}
+
+.box p, h4{
+    margin: 15px 0;
 }
