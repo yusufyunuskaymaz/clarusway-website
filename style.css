@@ -270,3 +270,54 @@ h4{
 .box h4{
     font-size: 22px;
 }
+
+.programs{
+    margin-top: 50px;
+}
+
+
+.card1{
+    padding: 50px 20px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.card1{
+    overflow: auto;
+}
+
+.card1 #title{
+    font-size: 19px;
+    font-weight: 600;
+    color: #5B5B5B;
+}
+
+.left-side{
+    float: left;
+    width: 60%;
+    border-right: 1px solid #A62440;
+    padding-right: 40px;
+
+}
+.right-side{
+    /* border: 1px solid blue; */
+    float: right;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 50px 0 30px 0;
+    margin-top: -40px;
+    margin-right: 40px;
+}
+
+
+#programs-date{
+    margin-bottom: 70px;
+   position: relative;
+   left: 80px;
+}
+
+.left-side p{
+    margin: 7px 0;
+}
