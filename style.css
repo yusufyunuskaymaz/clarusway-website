@@ -2,13 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    height: 1200vh;
-}
 
-section{
-    height: 1000vh;
-}
 
 header{
     position: fixed;
@@ -17,13 +11,23 @@ header{
     width: 100%;
     background-color: white;
     z-index: 2;
+    overflow: auto;
 
+}
+
+body{
+    height: 1000vh;
+}
+
+section{
+    height: 700vh;
 }
 
 nav{
     width: 80%;
     max-width: 1280px;
     margin: auto;
+    overflow: auto;
 }
 
 
@@ -150,7 +154,6 @@ section{
     width: 100%;
     margin: auto;
     padding-top: 100px;
-    height: 900vh;
     max-width: 1280px;
 
 }
@@ -161,6 +164,7 @@ section{
     font-size: 16px;
     line-height: 30px;
     height: 290px;
+    margin-top: 70px;
     /* background-color: red; */
     position: sticky;
     top: 100px;
@@ -365,3 +369,88 @@ h4{
 .marg-t{
     margin-top: -25px;
 }
+
+
+/* Alumnis Section */
+
+.alumni-card1{
+    width: 25%;
+    margin-right: 15px;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.alumni-card1 .top{
+    width: 20%;
+}
+
+.alumni-card1 .top{
+    width: 30%;
+}
+
+.alumni-card1 .top img{
+    float: left;
+}
+
+.alumni-card1 .top-box{
+    font-size: 14px;
+    margin-left: 70px;
+    
+}
+
+
+.alumni-card1 .top-box span{
+    line-height: 20px;
+}
+
+.alumni-card1 .bottom{
+    border-top:1px solid #e1e8ed;
+    color: #333333;
+}
+
+
+/* FAQ SECTION */
+
+.question1{
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+    border-radius: 2px;
+    padding: 5px 15px;
+    border-bottom: 3px solid #A62440;
+}
+
+#parag1{
+    display: inline-block;
+    border-bottom: 2px dashed #a4afb7;
+    margin-bottom: 15px;
+}
+
+.question1{
+    margin-bottom: 15px;
+    cursor: pointer;
+  
+}
+
+#parag-none{
+    display: none;
+    padding: 15px;
+    transition: .3s;
+}
+
+.question1:active #parag-none{
+    display: block;
+    transition: .3s;
+    
+}
+
+#plus{
+    color: #A62440;
+    float: right;
+    position: relative;
+    top: 12px;
+    font-size: 25px;
+    
+    
+}
+
