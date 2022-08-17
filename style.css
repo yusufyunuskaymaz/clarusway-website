@@ -1,8 +1,10 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 
+/* Header Section */
 
 header{
     position: fixed;
@@ -22,7 +24,7 @@ body{
 
 
 section{
-    height: 600vh;
+    height: 458vh;
 }
 
 nav{
@@ -64,6 +66,8 @@ header li{
 .header-sol{
     float: left;
 }
+
+/* Main Section */
 
 main{
     width: 80%;
@@ -128,6 +132,13 @@ header{
 #parag{
     color: #5B5B5B;
     max-width: 600px;
+    font-size: 22px;
+    /* border: 1px solid red; */
+}
+
+.google{
+    color: #5B5B5B;
+    font-weight: bolder;
 }
 
 h1{
@@ -136,14 +147,15 @@ h1{
 }
 
 .part-time{
-    color: #333333;
+    color: #5B5B5B;
 }
 
 .apply-course{
-    padding: 15px 20px;
+    padding: 15px 50px;
     background-color: #A62440;
     color: white;
     border: 1px solid transparent;
+    cursor: pointer;
 }
 
 .apply-course:hover{
@@ -209,7 +221,7 @@ section{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    /* text-align: center; */
+    cursor: pointer;
 }
 
 #btn-enroll:hover{
@@ -246,8 +258,12 @@ li{
     text-align: center;
     border-radius: 10px;
     box-sizing: border-box;
-
     margin-right: 5px;
+}
+
+.box-icon:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .box1, .box2, .box3{
@@ -376,12 +392,13 @@ h4{
 /* Alumnis Section */
 
 .alumni-card1{
-    width: 25%;
+    width: 30%;
     margin-right: 15px;
     float: left;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 25px;
+    margin-bottom: 30px;
 }
 
 .alumni-card1 .top{
