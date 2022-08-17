@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -16,11 +16,13 @@ header{
 }
 
 body{
-    height: 1000vh;
+    margin: 0;
 }
 
+
+
 section{
-    height: 700vh;
+    height: 600vh;
 }
 
 nav{
@@ -452,5 +454,67 @@ h4{
     font-size: 25px;
     
     
+}
+
+/* Footer Section */
+
+footer{
+    margin: 0;
+    background-color: gainsboro;
+    margin-top: 100px;
+    background-color: #8a1c4a;
+    border-top: 8px solid #E9335A;
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+footer ul{
+    display: inline-block;
+    margin: 25px 15px;
+    height: 250px;
+}
+
+footer li{
+    list-style-type: none;
+    color: white;
+    padding: 5px 0;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+#footer-ul-title{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.courses{
+    position: relative;
+    top: 50px;
+}
+
+.footer-bottom{
+    border-top: 1px solid #ddd;
+
+    padding: 30px 90px;
+}
+
+.footer-bottom img{
+    float: left;
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-bottom p{
+    float: right;
+    color: white;
 }
 
