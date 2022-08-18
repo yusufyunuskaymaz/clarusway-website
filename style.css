@@ -24,7 +24,7 @@ body{
 
 
 section{
-    height: 458vh;
+    height: 600vh;
 }
 
 nav{
@@ -533,5 +533,10 @@ footer li{
 .footer-bottom p{
     float: right;
     color: white;
+}
+
+#overview-parag{
+    color: #5B5B5B;
+    font-size: 20px;
 }
 
